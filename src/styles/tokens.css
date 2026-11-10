@@ -1,0 +1,157 @@
+/*
+ * NEXORA — tokens de design.
+ * ÚNICA fonte de cores, raios, espaçamentos, fontes e tempos de animação.
+ * Componentes usam apenas as classes geradas a partir daqui (bg-surface, text-muted, ...).
+ */
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --nx-background: #0a0a0f;
+  --nx-surface: #14141c;
+  --nx-surface-raised: #1c1c28;
+  --nx-border: #2a2a3a;
+
+  --nx-primary: #8b5cf6;
+  --nx-primary-deep: #6d28d9;
+  --nx-primary-deep-hover: #7c3aed;
+  --nx-accent: #c4b5fd;
+
+  --nx-foreground: #f4f4f8;
+  --nx-muted: #9a9ab0;
+  --nx-on-primary: #ffffff;
+  --nx-danger: #f87171;
+  --nx-danger-surface: #2a1518;
+  --nx-success: #4ade80;
+
+  --nx-bubble-sent: #6d28d9;
+  --nx-bubble-sent-foreground: #ffffff;
+  --nx-bubble-received: #1c1c28;
+  --nx-bubble-received-foreground: #f4f4f8;
+  --nx-tick: #9a9ab0;
+  --nx-tick-read: #c4b5fd;
+
+  --nx-overlay: rgb(5 5 10 / 0.72);
+  --nx-shadow: 0 12px 40px rgb(0 0 0 / 0.5);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --nx-background: #f7f7fb;
+  --nx-surface: #ffffff;
+  --nx-surface-raised: #efeff6;
+  --nx-border: #d9d9e6;
+
+  --nx-primary: #7c3aed;
+  --nx-primary-deep: #6d28d9;
+  --nx-primary-deep-hover: #5b21b6;
+  --nx-accent: #6d28d9;
+
+  --nx-foreground: #14141c;
+  --nx-muted: #5b5b72;
+  --nx-on-primary: #ffffff;
+  --nx-danger: #b91c1c;
+  --nx-danger-surface: #fde8e8;
+  --nx-success: #15803d;
+
+  --nx-bubble-sent: #6d28d9;
+  --nx-bubble-sent-foreground: #ffffff;
+  --nx-bubble-received: #ffffff;
+  --nx-bubble-received-foreground: #14141c;
+  --nx-tick: #c9c2e8;
+  --nx-tick-read: #c4b5fd;
+
+  --nx-overlay: rgb(20 20 28 / 0.5);
+  --nx-shadow: 0 12px 40px rgb(20 20 28 / 0.16);
+}
+
+@theme inline {
+  /* Cores */
+  --color-background: var(--nx-background);
+  --color-surface: var(--nx-surface);
+  --color-surface-raised: var(--nx-surface-raised);
+  --color-border: var(--nx-border);
+  --color-primary: var(--nx-primary);
+  --color-primary-deep: var(--nx-primary-deep);
+  --color-primary-deep-hover: var(--nx-primary-deep-hover);
+  --color-accent: var(--nx-accent);
+  --color-foreground: var(--nx-foreground);
+  --color-muted: var(--nx-muted);
+  --color-on-primary: var(--nx-on-primary);
+  --color-danger: var(--nx-danger);
+  --color-danger-surface: var(--nx-danger-surface);
+  --color-success: var(--nx-success);
+  --color-bubble-sent: var(--nx-bubble-sent);
+  --color-bubble-sent-foreground: var(--nx-bubble-sent-foreground);
+  --color-bubble-received: var(--nx-bubble-received);
+  --color-bubble-received-foreground: var(--nx-bubble-received-foreground);
+  --color-tick: var(--nx-tick);
+  --color-tick-read: var(--nx-tick-read);
+  --color-overlay: var(--nx-overlay);
+
+  /* Fontes */
+  --font-sans:
+    var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Raios */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius-bubble: 1.125rem;
+
+  /* Sombras */
+  --shadow-popover: var(--nx-shadow);
+
+  /* Tempos de animação (150–200 ms) */
+  --default-transition-duration: 150ms;
+  --default-transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  --animate-fade-in: nx-fade-in 200ms cubic-bezier(0.2, 0, 0, 1);
+  --animate-pop-in: nx-pop-in 180ms cubic-bezier(0.2, 0, 0, 1);
+  --animate-spin: spin 800ms linear infinite;
+
+  /* Medidas da casca */
+  --spacing-nav-rail: 4.5rem;
+  --spacing-list-pane: 25rem;
+  --spacing-bottom-bar: 4rem;
+
+  @keyframes nx-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes nx-pop-in {
+    from {
+      opacity: 0;
+      transform: translateY(0.5rem) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+}
+
+/* Espaçamento base da escala (p-1 = 0.25rem) e tamanho da fonte ajustável pelo usuário. */
+@theme {
+  --spacing: 0.25rem;
+}
+
+:root {
+  --nx-font-scale: 1;
+}
+
+[data-font-size='small'] {
+  --nx-font-scale: 0.9375;
+}
+
+[data-font-size='large'] {
+  --nx-font-scale: 1.125;
+}

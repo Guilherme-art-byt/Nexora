@@ -3,8 +3,7 @@
 Mensageiro em tempo real (Next.js + Supabase). O plano completo está em `PLAN.md`; leia-o
 antes de qualquer tarefa. Este arquivo guarda comandos, convenções e decisões.
 
-**Fase atual:** 0 (planejamento) — aguardando aprovação. Não iniciar a fase 1 sem o OK do
-dono do produto.
+**Fase atual:** 1 (fundação) concluída — aguardando o OK do dono do produto para a fase 2.
 
 ## Como trabalhamos
 
@@ -23,7 +22,8 @@ dono do produto.
 
 ## Comandos
 
-Os scripts abaixo são criados na fase 1; esta lista é o contrato.
+Primeira vez: `npm ci`, `npm run db:start`, `npm run db:env`, `npm run db:reset`.
+Neste ambiente de nuvem o Docker precisa ser ligado antes: `dockerd > /tmp/dockerd.log 2>&1 &`.
 
 | Comando | O que faz |
 |---|---|
@@ -36,6 +36,9 @@ Os scripts abaixo são criados na fase 1; esta lista é o contrato.
 | `npm run test:db` | Testes de RLS em SQL |
 | `npm run db:start` / `db:stop` | Supabase local (Docker) |
 | `npm run db:reset` | Recria o banco local: migrations + seed |
+| `npm run db:seed` | Cria os 3 usuários de teste e o grupo (pode repetir) |
+| `npm run db:env` | Gera o `.env.local` apontando para o Supabase local |
+| `npm run format` | Prettier em tudo |
 | `npm run db:types` | Gera `src/lib/supabase/database.types.ts` |
 | `npm run check` | lint + typecheck + test + build |
 
@@ -65,7 +68,9 @@ Os scripts abaixo são criados na fase 1; esta lista é o contrato.
 ### Banco
 - Toda mudança em migration nova em `supabase/migrations/` (nunca editar migration já
   aplicada).
-- RLS ligada em toda tabela, com teste em `supabase/tests/`.
+- RLS ligada em toda tabela, com teste em `supabase/tests/database/` (pgTAP).
+- Depois de mudar o esquema: `npm run db:types` (o CI falha se os tipos estiverem desatualizados).
+- Funções internas no esquema `private`; só o que o cliente chama fica em `public`.
 - Funções `security definer` sempre com `set search_path = ''` e nomes qualificados.
 - Escritas com regra de negócio passam por função SQL (RPC), não por insert direto.
 - Buckets sempre privados; acesso por URL assinada.
@@ -104,3 +109,12 @@ lilás. Tema escuro padrão, claro opcional. Mobile first.
 | 13 | Limitador de requisições em tabela no Postgres | Dispensa serviço externo |
 | 14 | Limites (tamanho de arquivo, participantes) em `app_config` | Configurável sem novo deploy |
 | 15 | Esquema completo e RLS já na fase 1 | Segurança testada desde o início |
+| 16 | Estado pessoal da conversa em `conversation_states`, separado de `conversation_members` | Silenciar, arquivar e não lidas não podem ser vistos pelos outros participantes |
+| 17 | Sessão lida no navegador; `src/proxy.ts` só renova cookies e redireciona | Com Cache Components as páginas ficam estáticas; a proteção real é a RLS |
+| 18 | Next.js 16: ler `node_modules/next/dist/docs/` antes de usar API nova (middleware agora é `proxy.ts`) | Há mudanças em relação a versões anteriores |
+| 19 | Componentes no estilo shadcn escritos à mão sobre `radix-ui`, usando só os nossos tokens | O gerador do shadcn traria nomes de tokens próprios |
+| 20 | Seed em `scripts/seed.mjs` (API de administração), não em `seed.sql` | O mesmo script serve ao banco local e ao hospedado (`SEED_EMAILS`) |
+| 21 | Migrations chegam ao Supabase hospedado pelo workflow `.github/workflows/banco.yml` | O dono do produto não roda comandos; segredos ficam no GitHub |
+| 22 | Sem acesso anônimo: `anon` não tem privilégio em tabela nem função; `authenticated` sem TRUNCATE | Menor superfície de ataque |
+| 23 | Botões preenchidos usam o roxo profundo `#6D28D9`; `#8B5CF6` fica para foco e destaques | Texto branco sobre `#8B5CF6` não atinge contraste AA |
+| 24 | Testes de banco não dependem do seed nem de dados de outros testes | Rodam em qualquer ordem |

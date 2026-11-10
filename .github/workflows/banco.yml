@@ -1,0 +1,60 @@
+name: Banco (Supabase)
+
+# Aplica as migrations no projeto Supabase hospedado.
+# Só roda de verdade quando os segredos abaixo existem no repositório
+# (Settings > Secrets and variables > Actions):
+#   SUPABASE_ACCESS_TOKEN, SUPABASE_PROJECT_ID, SUPABASE_DB_PASSWORD
+# Opcional, para criar os 3 usuários de teste e o grupo:
+#   segredos SUPABASE_URL e SUPABASE_SECRET_KEY + variável SEED_EMAILS (3 e-mails separados por vírgula)
+
+on:
+  push:
+    branches: [main, 'claude/**']
+    paths: ['supabase/migrations/**', 'scripts/seed.mjs', '.github/workflows/banco.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: banco
+  cancel-in-progress: false
+
+jobs:
+  migrar:
+    name: Aplicar migrations
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+      SEED_EMAILS: ${{ vars.SEED_EMAILS }}
+    steps:
+      - name: Conferir segredos
+        id: segredos
+        run: |
+          if [ -n "$SUPABASE_ACCESS_TOKEN" ] && [ -n "$SUPABASE_PROJECT_ID" ] && [ -n "$SUPABASE_DB_PASSWORD" ]; then
+            echo "prontos=sim" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::Segredos do Supabase ainda não configurados; nada foi aplicado."
+          fi
+          if [ -n "$NEXT_PUBLIC_SUPABASE_URL" ] && [ -n "$SUPABASE_SECRET_KEY" ] && [ -n "$SEED_EMAILS" ]; then
+            echo "seed=sim" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.segredos.outputs.prontos == 'sim'
+      - uses: actions/setup-node@v4
+        if: steps.segredos.outputs.prontos == 'sim'
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+        if: steps.segredos.outputs.prontos == 'sim'
+      - name: Aplicar migrations
+        if: steps.segredos.outputs.prontos == 'sim'
+        run: |
+          npx supabase link --project-ref "$SUPABASE_PROJECT_ID"
+          npx supabase db push --yes
+      - name: Usuários de teste e grupo
+        if: steps.segredos.outputs.prontos == 'sim' && steps.segredos.outputs.seed == 'sim'
+        run: node scripts/seed.mjs

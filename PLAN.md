@@ -4,7 +4,7 @@ Mensageiro em tempo real com identidade própria. Este documento é a fonte da v
 arquitetura, esquema de dados, fases e riscos. Tudo que não couber em uma fase é registrado
 aqui (seção 9), nunca como `TODO` no código.
 
-Situação: **Fase 0 concluída, aguardando aprovação do dono do produto.**
+Situação: **Fase 1 concluída, aguardando o OK do dono do produto para a fase 2.**
 
 ---
 
@@ -50,8 +50,8 @@ Versões conferidas no registro npm em 10/11/2026.
    tradução por enquanto. Todos os textos ficam centralizados e a troca por `next-intl` no
    futuro é mecânica.
 5. **Tabelas além do ponto de partida** (detalhes na seção 3): `message_deletions`,
-   `message_mentions`, `user_presence`, `link_previews`, `rate_limits`, `status_audience`,
-   `group_join_requests`, `conversation_preferences` (dentro de `conversation_members`).
+   `message_mentions`, `user_presence`, `link_previews`, `rate_limits`, `status_privacy_lists`,
+   `status_recipients`, `group_join_requests`, `conversation_states`, `poll_options`, `app_config`.
 
 ---
 
@@ -235,7 +235,8 @@ dono.
 | Tabela | Campos principais |
 |---|---|
 | `conversations` | `type` (direct / group), `direct_key` (par ordenado, único), dados do grupo (`name`, `description`, `avatar_path`), permissões (`send_policy`, `edit_policy`, `join_approval`), `disappearing_seconds`, `last_message_id`, `last_message_at` |
-| `conversation_members` | `role` (admin / member), `muted_until`, `archived`, `pinned_at`, `favorite`, `marked_unread`, `last_read_at`, `unread_count`, `unread_mentions`, `cleared_at`, `wallpaper`, `left_at` |
+| `conversation_members` | `role` (admin / member), `added_by`, `joined_at`, `left_at` — visível aos participantes |
+| `conversation_states` | estado pessoal, só do dono: `muted_until`, `archived`, `pinned_at`, `favorite`, `marked_unread`, `last_read_at`, `unread_count`, `unread_mentions`, `cleared_at`, `hidden`, `wallpaper` |
 | `messages` | `id` (gerado no cliente), `conversation_id`, `sender_id`, `type` (text, image, video, audio, document, location, contact, poll, system), `content`, `metadata` (jsonb), `reply_to_id`, `forwarded`, `edited_at`, `deleted_at`, `expires_at`, `view_once`, `hidden_from_recipient`, `delivered_all_at`, `read_all_at`, `search` (tsvector) |
 | `message_attachments` | `message_id`, `path`, `mime`, `size`, `width`, `height`, `duration`, `blur_preview`, `waveform`, `file_name` |
 | `message_receipts` | `message_id`, `user_id`, `delivered_at`, `read_at`, `played_at` (áudio ouvido), `viewed_at` (visualização única) |
@@ -254,7 +255,8 @@ dono.
 | `group_invites` | `conversation_id`, `code`, `revoked_at` |
 | `group_join_requests` | `conversation_id`, `user_id`, `status` |
 | `statuses` | `user_id`, `type` (text / image / video), `content`, `background`, `media_path`, `privacy`, `expires_at` |
-| `status_audience` | lista de exceção ("exceto...") ou de inclusão ("somente...") |
+| `status_privacy_lists` | listas "exceto..." e "somente..." de cada pessoa |
+| `status_recipients` | quem pode ver cada status, fixado na publicação |
 | `status_views` | `status_id`, `viewer_id`, `viewed_at` |
 | `calls` | `conversation_id`, `caller_id`, `kind` (voice / video), `started_at`, `answered_at`, `ended_at`, `end_reason` |
 | `call_participants` | `call_id`, `user_id`, `state` (ringing, joined, declined, missed) |
@@ -355,7 +357,7 @@ Explico cada passo em detalhe quando chegar a hora. Resumo:
 | Fase 1 | Criar conta em um serviço de envio de e-mail (sugestão: **Resend**, gratuito) | O e-mail embutido do Supabase só permite pouquíssimos envios por hora; sem isso o código de login não chega de forma confiável |
 | Fase 8 | Nada manual além de aceitar a permissão de notificação no navegador | As chaves VAPID eu gero; você só as cola como segredo |
 | Fase 9 | Opcional: conta em um serviço **TURN** (ex.: Cloudflare Calls ou Metered) | Sem TURN, chamadas falham em algumas redes móveis e corporativas |
-| Fase 10 | Criar conta na **Vercel** e conectar o repositório | Publicação |
+| Fase 1 (antecipado) | Criar conta na **Vercel** e conectar o repositório | Sem isso você não tem um endereço para testar cada fase |
 
 Desenvolvimento e testes automáticos usam o Supabase local (via Docker). Você testa cada
 fase no projeto Supabase hospedado.
@@ -366,7 +368,7 @@ fase no projeto Supabase hospedado.
 
 | Risco | Impacto | Como trato |
 |---|---|---|
-| Docker indisponível neste ambiente de nuvem (o programa está instalado, mas o serviço não está ativo) | Sem Supabase local não consigo rodar testes de banco e ponta a ponta aqui | Primeira tarefa da fase 1 é tentar ativá-lo. Se não for possível, uso um segundo projeto Supabase só para testes e aviso você |
+| Docker neste ambiente de nuvem precisa ser ligado à mão a cada sessão | Sem ele não há Supabase local | Resolvido na fase 1: `dockerd` sobe normalmente; comando registrado no `CLAUDE.md` |
 | Limite de envio de e-mail do Supabase | Login falha | SMTP próprio (Resend) já na fase 1 |
 | Web Push no iPhone | Só funciona com o app instalado na tela inicial (iOS 16.4+) | Tela de orientação para instalar; documentado no README |
 | Gravação de áudio e vídeo varia entre navegadores (Safari usa MP4/AAC) | Áudio pode não tocar em outro aparelho | Detectar formato suportado ao gravar; testar reprodução cruzada na fase 4 |

@@ -1,0 +1,153 @@
+/**
+ * Todos os textos da interface. Nenhum componente escreve texto visível fora daqui.
+ * Para um novo idioma: criar um arquivo ao lado com o mesmo formato (tipo `Dictionary`).
+ */
+export const ptBR = {
+  app: {
+    name: 'NEXORA',
+    tagline: 'Conversas em tempo real, do seu jeito.',
+    description: 'Mensageiro em tempo real para conversar com quem importa.',
+  },
+  common: {
+    continue: 'Continuar',
+    back: 'Voltar',
+    cancel: 'Cancelar',
+    save: 'Salvar',
+    saving: 'Salvando...',
+    saved: 'Alterações salvas',
+    loading: 'Carregando...',
+    close: 'Fechar',
+    remove: 'Remover',
+    retry: 'Tentar de novo',
+    optional: 'opcional',
+  },
+  errors: {
+    generic: 'Algo deu errado. Tente de novo.',
+    network: 'Sem conexão. Verifique sua internet e tente de novo.',
+    rateLimited: 'Muitas tentativas. Aguarde um pouco antes de tentar de novo.',
+    sessionExpired: 'Sua sessão expirou. Entre de novo.',
+  },
+  auth: {
+    welcome: {
+      title: 'Boas-vindas ao NEXORA',
+      subtitle: 'Converse em tempo real por texto, voz e vídeo. Entre com seu e-mail para começar.',
+      start: 'Começar',
+    },
+    login: {
+      title: 'Entrar',
+      subtitle: 'Enviaremos um código de 6 dígitos para o seu e-mail.',
+      emailLabel: 'E-mail',
+      emailPlaceholder: 'voce@exemplo.com',
+      submit: 'Enviar código',
+      sending: 'Enviando...',
+      invalidEmail: 'Digite um e-mail válido.',
+    },
+    code: {
+      title: 'Digite o código',
+      subtitle: (email: string) => `Enviamos um código de 6 dígitos para ${email}.`,
+      label: 'Código de 6 dígitos',
+      digitLabel: (position: number) => `Dígito ${position} de 6`,
+      submit: 'Confirmar',
+      verifying: 'Confirmando...',
+      invalid: 'Código incorreto ou vencido. Confira e tente de novo.',
+      incomplete: 'Digite os 6 dígitos do código.',
+      resend: 'Reenviar código',
+      resendIn: (seconds: number) => `Reenviar código em ${seconds}s`,
+      resent: 'Enviamos um novo código.',
+      changeEmail: 'Usar outro e-mail',
+    },
+    signOut: 'Sair',
+    signingOut: 'Saindo...',
+  },
+  profile: {
+    create: {
+      title: 'Crie seu perfil',
+      subtitle: 'É assim que as outras pessoas vão ver você.',
+      submit: 'Concluir',
+      submitting: 'Criando perfil...',
+    },
+    edit: {
+      title: 'Perfil',
+    },
+    fields: {
+      name: 'Nome',
+      namePlaceholder: 'Como você quer ser chamado',
+      username: 'Nome de usuário',
+      usernamePlaceholder: 'seu.usuario',
+      usernameHint: 'De 3 a 20 caracteres: letras minúsculas, números, ponto e sublinhado.',
+      about: 'Recado',
+      aboutPlaceholder: 'Disponível',
+      aboutCount: (current: number, max: number) => `${current} de ${max}`,
+    },
+    validation: {
+      nameRequired: 'Digite seu nome.',
+      nameTooLong: 'O nome pode ter até 50 caracteres.',
+      usernameInvalid: 'Use de 3 a 20 letras minúsculas, números, ponto ou sublinhado.',
+      usernameTaken: 'Esse nome de usuário já está em uso.',
+      usernameAvailable: 'Nome de usuário disponível.',
+      usernameChecking: 'Verificando disponibilidade...',
+      aboutTooLong: 'O recado pode ter até 140 caracteres.',
+    },
+    avatar: {
+      alt: (name: string) => `Foto de ${name}`,
+      add: 'Adicionar foto',
+      change: 'Trocar foto',
+      remove: 'Remover foto',
+      cropTitle: 'Ajustar foto',
+      cropDescription: 'Arraste para posicionar e use o controle para aproximar.',
+      zoom: 'Aproximação',
+      apply: 'Usar foto',
+      invalidType: 'Escolha uma imagem JPG, PNG ou WebP.',
+      tooLarge: 'A imagem é grande demais. Escolha uma de até 10 MB.',
+      uploadFailed: 'Não foi possível enviar a foto. Tente de novo.',
+    },
+  },
+  nav: {
+    label: 'Navegação principal',
+    conversations: 'Conversas',
+    updates: 'Atualizações',
+    calls: 'Chamadas',
+    settings: 'Configurações',
+  },
+  conversations: {
+    title: 'Conversas',
+    emptyTitle: 'Nenhuma conversa ainda',
+    emptyDescription: 'Suas conversas aparecem aqui assim que você trocar a primeira mensagem.',
+    detailEmptyTitle: 'NEXORA',
+    detailEmptyDescription: 'Escolha uma conversa na lista para ver as mensagens.',
+  },
+  updates: {
+    title: 'Atualizações',
+    emptyTitle: 'Nenhuma atualização',
+    emptyDescription: 'As atualizações dos seus contatos ficam visíveis aqui por 24 horas.',
+  },
+  calls: {
+    title: 'Chamadas',
+    emptyTitle: 'Nenhuma chamada',
+    emptyDescription: 'Seu histórico de chamadas efetuadas, recebidas e perdidas aparece aqui.',
+  },
+  settings: {
+    title: 'Configurações',
+    profileSection: 'Perfil',
+    appearanceSection: 'Aparência',
+    accountSection: 'Conta',
+    theme: {
+      label: 'Tema',
+      dark: 'Escuro',
+      light: 'Claro',
+      system: 'Do sistema',
+    },
+    fontSize: {
+      label: 'Tamanho da fonte',
+      small: 'Pequena',
+      medium: 'Média',
+      large: 'Grande',
+    },
+    account: {
+      email: 'E-mail',
+      signOutDescription: 'Você precisará de um novo código para entrar de novo neste aparelho.',
+    },
+  },
+} as const;
+
+export type Dictionary = typeof ptBR;
