@@ -1,0 +1,820 @@
+{
+  "a-chegada": {
+    "tmdbId": 329865,
+    "tmdbTitle": "A Chegada",
+    "poster": "/pKtfLDttqvXX4VEe5ws3IcbgF1Y.jpg",
+    "backdrop": "/8MUZz7oPXQftFTslZpRP3CVMOoq.jpg"
+  },
+  "a-lista-de-schindler": {
+    "tmdbId": 424,
+    "tmdbTitle": "A Lista de Schindler",
+    "poster": "/lfJAj9OGsiSsbFxouRkGKqibHxf.jpg",
+    "backdrop": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg"
+  },
+  "a-origem": {
+    "tmdbId": 27205,
+    "tmdbTitle": "A Origem",
+    "poster": "/9e3Dz7aCANy5aRUQF745IlNloJ1.jpg",
+    "backdrop": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg"
+  },
+  "a-viagem-de-chihiro": {
+    "tmdbId": 129,
+    "tmdbTitle": "A Viagem de Chihiro",
+    "poster": "/hhoKhsyJ3hFaxEm5pMdZRiTu2lJ.jpg",
+    "backdrop": "/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg"
+  },
+  "a-vida-e-bela": {
+    "tmdbId": 637,
+    "tmdbTitle": "A Vida é Bela",
+    "poster": "/dkK48wCY4aVpWFDdPpS6DxQ1bvB.jpg",
+    "backdrop": "/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg"
+  },
+  "ainda-estou-aqui": {
+    "tmdbId": 1000837,
+    "tmdbTitle": "Ainda Estou Aqui",
+    "poster": "/zNAw7jK8bwCK56rIW676pdgkwhd.jpg",
+    "backdrop": "/j9uruwRe9qM8RnP758dF7ISB8Bj.jpg"
+  },
+  "akira": {
+    "tmdbId": 149,
+    "tmdbTitle": "Akira",
+    "poster": "/tbwwTQ3EqSdotbQ3ZcIl6vKBv7q.jpg",
+    "backdrop": "/fK40VGYIm7hmKrLJ26fgPQU0qRG.jpg"
+  },
+  "alien-o-oitavo-passageiro": {
+    "tmdbId": 348,
+    "tmdbTitle": "Alien: O Oitavo Passageiro",
+    "poster": "/rFHzJrkO1kNIezb6rFog5oCJUEn.jpg",
+    "backdrop": "/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg"
+  },
+  "amelie-poulain": {
+    "tmdbId": 194,
+    "tmdbTitle": "O Fabuloso Destino de Amélie Poulain",
+    "poster": "/wIFIdHZLDQRWZxpM9VsWaCXcWrk.jpg",
+    "backdrop": "/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg"
+  },
+  "apollo-11": {
+    "tmdbId": 549559,
+    "tmdbTitle": "Apollo 11",
+    "poster": "/woLMRroHyoTGoXyxdEeBJEYBFtu.jpg",
+    "backdrop": "/el4j0LHk56uH6ErE5FZu2x5UJx8.jpg"
+  },
+  "aquarius": {
+    "tmdbId": 377273,
+    "tmdbTitle": "Aquarius",
+    "poster": "/szvJDNBx9xYcZsqRSbYA3I03dza.jpg",
+    "backdrop": "/veZzmysk4x3clDOsXiAADWVjL40.jpg"
+  },
+  "aranhaverso": {
+    "tmdbId": 324857,
+    "tmdbTitle": "Homem-Aranha: No Aranhaverso",
+    "poster": "/ybQSBSrINtjWsJQ6Ih8sva8HlEZ.jpg",
+    "backdrop": "/1ntePsIqeklfmrQJqZPncCydsqY.jpg"
+  },
+  "arcane": {
+    "tmdbId": 94605,
+    "tmdbTitle": "Arcane",
+    "poster": "/m3Tzf6k537PnhOEwaSRNCSxedLS.jpg",
+    "backdrop": "/5cvnxEHT3e39DvT6ARw4GNCFrB0.jpg",
+    "stills": {
+      "arcane-t1e1": "/g7dMkFJvJECDYoL0TRzGQCfF3xD.jpg",
+      "arcane-t1e2": "/1uubdoW7nPtpYS6T59COLEKDB7A.jpg",
+      "arcane-t1e3": "/zCc7AEH53aH8r61F5f9DkIQGeZC.jpg",
+      "arcane-t1e4": "/b0EGdWDOFxbhaGwlJ11vO2h0az6.jpg",
+      "arcane-t1e5": "/72Ti7nTKEAPgx4VSggb1ksl31rm.jpg",
+      "arcane-t1e6": "/sPpQYLgoSZ8UXai20CSEABG9rFz.jpg",
+      "arcane-t1e7": "/ieYvkXKqOuIYcBps7COg8w6rJyN.jpg",
+      "arcane-t1e8": "/vYIBscxveNMkxFNTcPZ6YoF6fdU.jpg",
+      "arcane-t1e9": "/3mSWRynTvvE2IYJ6sI47m8V77Jq.jpg"
+    }
+  },
+  "attack-on-titan": {
+    "tmdbId": 1429,
+    "tmdbTitle": "Attack on Titan",
+    "poster": "/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
+    "backdrop": "/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+    "stills": {
+      "attack-on-titan-t1e1": "/e363TDn4uP8jP7kHAXQfHAs6HTR.jpg",
+      "attack-on-titan-t1e2": "/3l0CkbEdnBeYvpEm9nSVIQXs237.jpg",
+      "attack-on-titan-t1e3": "/eBDbxFioIZQx7Nu0vOEQVP4cCIq.jpg",
+      "attack-on-titan-t1e4": "/iQMZuF65LHGnA7q9snxM8CHb7SW.jpg",
+      "attack-on-titan-t1e5": "/9O4oJGdRxVkjiqQOnahg1H0q6hf.jpg"
+    }
+  },
+  "auto-da-compadecida": {
+    "tmdbId": 40096,
+    "tmdbTitle": "O Auto da Compadecida",
+    "poster": "/y3IhuITELtprMhUd7bccu629rba.jpg",
+    "backdrop": "/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg"
+  },
+  "avatar-a-lenda-de-aang": {
+    "tmdbId": 246,
+    "tmdbTitle": "Avatar: A Lenda de Aang",
+    "poster": "/7IJhby0sfQCN5ZIIseAWCw6j3xm.jpg",
+    "backdrop": "/7oBGhqJIghRBvOwo5Qe0yM0cnMc.jpg",
+    "stills": {
+      "avatar-a-lenda-de-aang-t1e1": "/8aw8amxBvWCLWas1UhPESOiysow.jpg",
+      "avatar-a-lenda-de-aang-t1e2": "/zGktHJTiPypAqJd0yG3EVoznxqE.jpg",
+      "avatar-a-lenda-de-aang-t1e3": "/bFBUv2VDtyBuilulFynsNGPINnw.jpg",
+      "avatar-a-lenda-de-aang-t1e4": "/4VNx9JspNnWZibkkr7XydYPHh2m.jpg",
+      "avatar-a-lenda-de-aang-t1e5": "/6p6CR7ITrtaYEo0IewpFfMVowB8.jpg"
+    }
+  },
+  "bacurau": {
+    "tmdbId": 446159,
+    "tmdbTitle": "Bacurau",
+    "poster": "/qvmLAVqNB5TbGUa9QqQvXiFC4UR.jpg",
+    "backdrop": "/nhsC7Q1Zb5n2p4H3UKy422zP5XC.jpg"
+  },
+  "band-of-brothers": {
+    "tmdbId": 4613,
+    "tmdbTitle": "Band of Brothers",
+    "poster": "/zReOJYste13Qq3T3B5OyXPWjv1O.jpg",
+    "backdrop": "/2yDV0xLyqW88dn5qE7YCRnoYmfy.jpg",
+    "stills": {
+      "band-of-brothers-t1e1": "/p8tedBM1Ss8umScgQs0j8dv6FSH.jpg",
+      "band-of-brothers-t1e2": "/fkfbjR8zj5U3Iv3CAW2t6MUuFdz.jpg",
+      "band-of-brothers-t1e3": "/laTQtUVm3EHWCgdImUACSOTtzCO.jpg",
+      "band-of-brothers-t1e4": "/24F0Jwaf55LBdBsd5VXeAsVqYR.jpg",
+      "band-of-brothers-t1e5": "/9dASC8mN0TKU2dcnlxhI165unOs.jpg",
+      "band-of-brothers-t1e6": "/jrRgUs4v3ZT8TO5lZDAlV6CvkQO.jpg"
+    }
+  },
+  "batman-cavaleiro-das-trevas": {
+    "tmdbId": 155,
+    "tmdbTitle": "Batman: O Cavaleiro das Trevas",
+    "poster": "/dutnVGV9ljCZh84bkTE1TVZ4s4Y.jpg",
+    "backdrop": "/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg"
+  },
+  "better-call-saul": {
+    "tmdbId": 60059,
+    "tmdbTitle": "Better Call Saul",
+    "poster": "/tFCPd8nOqrxjKpTs0ZAdPRydQFR.jpg",
+    "backdrop": "/rfxryDIv8huejujg4JueDJx8zCz.jpg",
+    "stills": {
+      "better-call-saul-t1e1": "/hMsYozWU7Q3m0FIuXnxEH9Gmyy8.jpg",
+      "better-call-saul-t1e2": "/wOkddHcnj8Fae8VbLbKMh641HHy.jpg",
+      "better-call-saul-t1e3": "/xF1LKhLd0xAcddb9HrgAJ2W6gav.jpg",
+      "better-call-saul-t1e4": "/1effMQQBq8BhBQXeqLNFcr8RGVb.jpg",
+      "better-call-saul-t1e5": "/854TkmG8cP00FmIR8QjTsa0ajVE.jpg",
+      "better-call-saul-t1e6": "/7tSG2a6GSQyEcWH3P5e4zNqjVZO.jpg",
+      "better-call-saul-t1e7": "/f1MVCLlx6pOS3DJo4qRLVCNRuSX.jpg",
+      "better-call-saul-t1e8": "/5vpI6D2n4zma4xqQBRq2Bz3tHu5.jpg",
+      "better-call-saul-t1e9": "/oymFIzG89cGIXHx91wnCmdYQ9q7.jpg",
+      "better-call-saul-t1e10": "/eUl8LoEhEtIy0kdyvwgo2ZNSH9B.jpg"
+    }
+  },
+  "bingo-o-rei-das-manhas": {
+    "tmdbId": 429210,
+    "tmdbTitle": "Bingo: O Rei das Manhãs",
+    "poster": "/6tFYnSI4a5r9RVig0cOXba67v9T.jpg",
+    "backdrop": "/96el06riGUnHRJGXxhP9StZzhFt.jpg"
+  },
+  "black-mirror": {
+    "tmdbId": 42009,
+    "tmdbTitle": "Black Mirror",
+    "poster": "/aCTL24B8ZuiI2osMwoUI5rqBXoF.jpg",
+    "backdrop": "/dg3OindVAGZBjlT3xYKqIAdukPL.jpg",
+    "stills": {
+      "black-mirror-t1e1": "/9w27Lgeq8KVxhz4ysygT6ranxf1.jpg",
+      "black-mirror-t1e2": "/c62HKSbeTRkatK223O3m58CmmPd.jpg",
+      "black-mirror-t1e3": "/4PWu1S4RME6RnGSJUJuuSz19R2G.jpg"
+    }
+  },
+  "blade-runner-2049": {
+    "tmdbId": 335984,
+    "tmdbTitle": "Blade Runner 2049",
+    "poster": "/49pANIZXRAdHUiWjjBv4vxPeqRC.jpg",
+    "backdrop": "/gNdLJU9TxrpGx4dkZidjys3fyy0.jpg"
+  },
+  "breaking-bad": {
+    "tmdbId": 1396,
+    "tmdbTitle": "Breaking Bad",
+    "poster": "/hGwm9Cj3CdbJIqQWNExQqiYmCd4.jpg",
+    "backdrop": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+    "stills": {
+      "breaking-bad-t1e1": "/ydlY3iPfeOAvu8gVqrxPoMvzNCn.jpg",
+      "breaking-bad-t1e2": "/AbMoecO0ZZio0LcgeLxlzdyGs6X.jpg",
+      "breaking-bad-t1e3": "/n8Dah3Tc1vlc4i7bQ9zYPWaFO0e.jpg",
+      "breaking-bad-t1e4": "/i5BAJVhuIWfkoSqDID6FnQNCTVc.jpg",
+      "breaking-bad-t1e5": "/82G3wZgEvZLKcte6yoZJahUWBtx.jpg",
+      "breaking-bad-t1e6": "/rCCLuycNPL30W3BtuB8HafxEMYz.jpg",
+      "breaking-bad-t1e7": "/1dgFAsajUpUT7DLXgAxHb9GyXHH.jpg"
+    }
+  },
+  "carandiru": {
+    "tmdbId": 8440,
+    "tmdbTitle": "Carandiru",
+    "poster": "/dvL05T9KtkY6oPpMvrAmu18Nds3.jpg",
+    "backdrop": "/rhrBU761a5B4w7hhpA9og3fNBCH.jpg"
+  },
+  "central-do-brasil": {
+    "tmdbId": 666,
+    "tmdbTitle": "Central do Brasil",
+    "poster": "/qfyWFhUhqeNRU9HmCaBDAxVKRZ9.jpg",
+    "backdrop": "/lrLIy9OFRQg4VkhrCyolfNXJEUH.jpg"
+  },
+  "chernobyl": {
+    "tmdbId": 87108,
+    "tmdbTitle": "Chernobyl",
+    "poster": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+    "backdrop": "/900tHlUYUkp7Ol04XFSoAaEIXcT.jpg",
+    "stills": {
+      "chernobyl-t1e1": "/thaMHLz5l6TVL8R4EzaBkjn2EZA.jpg",
+      "chernobyl-t1e2": "/kVsUEtOOYeLRmABVuZztl4k9onO.jpg",
+      "chernobyl-t1e3": "/2Eje4lD5MWkTdbFdtlHnrHT2kA2.jpg",
+      "chernobyl-t1e4": "/xV2eVT4ejGhVn9OIMCo4uBOhmCC.jpg",
+      "chernobyl-t1e5": "/mgXm2Y6SOFDHtD5thi2LmS7uQBj.jpg"
+    }
+  },
+  "cidade-de-deus": {
+    "tmdbId": 598,
+    "tmdbTitle": "Cidade de Deus",
+    "poster": "/1K1yCSUKFsYoNDu7rnMVJUuqw7O.jpg",
+    "backdrop": "/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg"
+  },
+  "clube-da-luta": {
+    "tmdbId": 550,
+    "tmdbTitle": "Clube da Luta",
+    "poster": "/nu7FEmC4zBaZ7c3QYmVpDlZa2H0.jpg",
+    "backdrop": "/c6OLXfKAk5BKeR6broC8pYiCquX.jpg"
+  },
+  "coringa": {
+    "tmdbId": 475557,
+    "tmdbTitle": "Coringa",
+    "poster": "/miFPa7bgu2wEcJYLjB4hrg2PG4E.jpg",
+    "backdrop": "/rlay2M5QYvi6igbGcFjq8jxeusY.jpg"
+  },
+  "corra": {
+    "tmdbId": 419430,
+    "tmdbTitle": "Corra!",
+    "poster": "/A0RoSZh8PEYJgDMgM2EV7Ycz3dR.jpg",
+    "backdrop": "/bBQHALHRAaaORlPNXv7fNcRXYdx.jpg"
+  },
+  "cosmos": {
+    "tmdbId": 58474,
+    "tmdbTitle": "Cosmos: Uma Odisseia do Espaço-Tempo",
+    "poster": "/47f0rqHHwWVJnEHL1JOR8SHznBZ.jpg",
+    "backdrop": "/2Nwbv0hrN8sThLvgooShcPqmFrO.jpg",
+    "stills": {
+      "cosmos-t1e1": "/4F9kbEp4PFe6CfHDMdQynOCiFmL.jpg",
+      "cosmos-t1e2": "/oN6FHlQfQiZQy1TKuLHG1Nn415U.jpg",
+      "cosmos-t1e3": "/qGi5Tu6dTA7TZU8j9ZCa6jo0kZ4.jpg",
+      "cosmos-t1e4": "/q8ubQz9NDIMukbev1wG30g60OgI.jpg",
+      "cosmos-t1e5": "/q9XFUwD7uwubjZFTgG49tX3diB.jpg"
+    }
+  },
+  "dark": {
+    "tmdbId": 70523,
+    "tmdbTitle": "Dark",
+    "poster": "/wiiyc3m6HKaQhFBYeuM7ySCNQsG.jpg",
+    "backdrop": "/3jDXL4Xvj3AzDOF6UH1xeyHW8MH.jpg",
+    "stills": {
+      "dark-t1e1": "/ljQC5U5Ag86vRylCR5gmf78fVaS.jpg",
+      "dark-t1e2": "/oFTNaNwF1g0GCQPTXgHviixMCDM.jpg",
+      "dark-t1e3": "/86XR5D6BVpYGRKO5qu1mRLY8EM2.jpg",
+      "dark-t1e4": "/eH3NmNsMv5uNygAn57uOBS3wHqB.jpg",
+      "dark-t1e5": "/piwRYraJ1jUE8pcuQJfWPgs6hdy.jpg",
+      "dark-t1e6": "/b29shl2dzHgCclnKgk7xXQQ2qC.jpg",
+      "dark-t1e7": "/5Is0BxZrsvmC7KCNp4v9WVWl5Hj.jpg",
+      "dark-t1e8": "/pgRyuIwDfrTrDj02IjajEz4pKwv.jpg",
+      "dark-t1e9": "/7Po2UkodniCiksyJT4sLLky4dEz.jpg",
+      "dark-t1e10": "/9oZjmjudW8bCyhhIOfiacYsTgx0.jpg"
+    }
+  },
+  "de-volta-para-o-futuro": {
+    "tmdbId": 105,
+    "tmdbTitle": "De Volta para o Futuro",
+    "poster": "/JoAiVdWmz8XFA9rl43EtjT8ipn.jpg",
+    "backdrop": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg"
+  },
+  "death-note": {
+    "tmdbId": 13916,
+    "tmdbTitle": "Death Note",
+    "poster": "/mQABf5KFAMD0hLOdpFrthy00BCh.jpg",
+    "backdrop": "/koBa94NxTaGe2FoDzlXMuJptsv0.jpg",
+    "stills": {
+      "death-note-t1e1": "/5DB79iXXP7dhJHdUVC86y5YDQ8i.jpg",
+      "death-note-t1e2": "/63fCP6HZf5EbP6muq2mcYh6Lvc8.jpg",
+      "death-note-t1e3": "/k0g0yiL74LSp8JodQVjted6YMJf.jpg",
+      "death-note-t1e4": "/bisms0qgIVV8Qa9vGlFnfP9briJ.jpg",
+      "death-note-t1e5": "/c4xX6EVc6snSOFTZXDJPzAMYZEM.jpg"
+    }
+  },
+  "diario-de-uma-paixao": {
+    "tmdbId": 11036,
+    "tmdbTitle": "Diário de uma Paixão",
+    "poster": "/A07izLVyZCrmq0HTvFg6qdqiZE5.jpg",
+    "backdrop": "/zdXnJqBaGFVtLoPNuMeKfEYUViZ.jpg"
+  },
+  "divertida-mente": {
+    "tmdbId": 150540,
+    "tmdbTitle": "Divertida Mente",
+    "poster": "/4Kg34KTlnoHvjLzD7ji2jUSouvD.jpg",
+    "backdrop": "/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg"
+  },
+  "duna-parte-dois": {
+    "tmdbId": 693134,
+    "tmdbTitle": "Duna: Parte Dois",
+    "poster": "/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
+    "backdrop": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg"
+  },
+  "entre-facas-e-segredos": {
+    "tmdbId": 546554,
+    "tmdbTitle": "Entre Facas e Segredos",
+    "poster": "/AtPef71peagutmWMuqpZU7f3aid.jpg",
+    "backdrop": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg"
+  },
+  "forrest-gump": {
+    "tmdbId": 13,
+    "tmdbTitle": "Forrest Gump: O Contador de Histórias",
+    "poster": "/d74WpIsH8379TIL4wUxDneRCYv2.jpg",
+    "backdrop": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg"
+  },
+  "free-solo": {
+    "tmdbId": 515042,
+    "tmdbTitle": "Free Solo",
+    "poster": "/v4QfYZMACODlWul9doN9RxE99ag.jpg",
+    "backdrop": "/z2uuQasY4gQJ8VDAFki746JWeQJ.jpg"
+  },
+  "friends": {
+    "tmdbId": 1668,
+    "tmdbTitle": "Friends",
+    "poster": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+    "backdrop": "/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg",
+    "stills": {
+      "friends-t1e1": "/Slm6IczgHJWpR4dIv33IRtNrq5.jpg",
+      "friends-t1e2": "/1tkibWEdFUGVu74odpuiednNgMX.jpg",
+      "friends-t1e3": "/963xL8QC2In3dvb8ooWWA30M5JI.jpg",
+      "friends-t1e4": "/zydPvr4Fe7mZ1OnWmb1SPr84OD8.jpg",
+      "friends-t1e5": "/m2PCayytQnoTOf3u4R6Tt737gFL.jpg",
+      "friends-t1e6": "/8zUXN6UqLBdsYQMexxuxku2iBG3.jpg"
+    }
+  },
+  "fullmetal-alchemist-brotherhood": {
+    "tmdbId": 31911,
+    "tmdbTitle": "Fullmetal Alchemist: Brotherhood",
+    "poster": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
+    "backdrop": "/2UG177tWHy7xRmMKWJHB7nAUmKd.jpg",
+    "stills": {
+      "fullmetal-alchemist-brotherhood-t1e1": "/gt38hv6Xkr2U42Wud7xEhtXREst.jpg",
+      "fullmetal-alchemist-brotherhood-t1e2": "/7nj2xLJvjNecLnftoCSmC8QTk6t.jpg",
+      "fullmetal-alchemist-brotherhood-t1e3": "/4V97HpXyziLoT5v8ByaT1AXo5vc.jpg",
+      "fullmetal-alchemist-brotherhood-t1e4": "/gK9PNwrvLBcVMO7OIaW5nTXRgZS.jpg",
+      "fullmetal-alchemist-brotherhood-t1e5": "/feiw4Fe4sVQU7yUXqLEem7qK1rR.jpg"
+    }
+  },
+  "game-of-thrones": {
+    "tmdbId": 1399,
+    "tmdbTitle": "Game of Thrones",
+    "poster": "/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg",
+    "backdrop": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+    "stills": {
+      "game-of-thrones-t1e1": "/o4IX9Mm0kpLITVANJMx7inyEUaY.jpg",
+      "game-of-thrones-t1e2": "/l0GJx3IR8YasbztTJi5uK0XqkEo.jpg",
+      "game-of-thrones-t1e3": "/8HjOlb4slc1xusMgOtoNpxuTgSI.jpg",
+      "game-of-thrones-t1e4": "/Ai2UPMWv38xGjOgNBuA1o8w8dUI.jpg",
+      "game-of-thrones-t1e5": "/u7e1qSWE6v8jfY9vGNrckX47DGN.jpg",
+      "game-of-thrones-t1e6": "/eU7iftaj8ZTy4WADhEURDM75CSv.jpg"
+    }
+  },
+  "gladiador": {
+    "tmdbId": 98,
+    "tmdbTitle": "Gladiador",
+    "poster": "/R1ieKOdGHYL7BRpl0iRgNV1uXw.jpg",
+    "backdrop": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg"
+  },
+  "grande-hotel-budapeste": {
+    "tmdbId": 120467,
+    "tmdbTitle": "O Grande Hotel Budapeste",
+    "poster": "/yabOguSrb8ffUXCkI6t8Rw7xtSh.jpg",
+    "backdrop": "/jK65srQczOKTpW62wPxwwKztGgE.jpg"
+  },
+  "hereditario": {
+    "tmdbId": 493922,
+    "tmdbTitle": "Hereditário",
+    "poster": "/wonYMeHauhrxSi5UTOtj5L479mS.jpg",
+    "backdrop": "/4DUoPZOHdPuROP4nyEIsPaMIiQl.jpg"
+  },
+  "hora-de-aventura": {
+    "tmdbId": 15260,
+    "tmdbTitle": "Hora de Aventura",
+    "poster": "/qlKzlxMHgLSPVox5szfTm3cGaGX.jpg",
+    "backdrop": "/d8rse1RgMzXwmZvBpDvcG1VUO2Y.jpg",
+    "stills": {
+      "hora-de-aventura-t1e1": "/itN8wutfHFrkfsix2I9hus2SSSQ.jpg",
+      "hora-de-aventura-t1e2": "/8EUo7I1S2zJ9j81aQlnI96O9OtW.jpg",
+      "hora-de-aventura-t1e3": "/k4kiB0aK5KixyhjVyFBb7bRlPfU.jpg",
+      "hora-de-aventura-t1e4": "/wvThuz7e2WQ9Hl9sL0ZpTm2jesW.jpg",
+      "hora-de-aventura-t1e5": "/zoVLtXdeiRFTWAOHlW6iJ23YKyU.jpg"
+    }
+  },
+  "interestelar": {
+    "tmdbId": 157336,
+    "tmdbTitle": "Interestelar",
+    "poster": "/tR1XVa5bxgdh2bRw2u0DzrgkO2l.jpg",
+    "backdrop": "/8sNiAPPYU14PUepFNeSNGUTiHW.jpg"
+  },
+  "invocacao-do-mal": {
+    "tmdbId": 138843,
+    "tmdbTitle": "Invocação do Mal",
+    "poster": "/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg",
+    "backdrop": "/ecKQlAEG95k62SMGhvX83oEqANK.jpg"
+  },
+  "it-a-coisa": {
+    "tmdbId": 346364,
+    "tmdbTitle": "It: A Coisa",
+    "poster": "/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg",
+    "backdrop": "/qVGpxnjrGlHaSTCqTQI6viBDSfp.jpg"
+  },
+  "john-wick": {
+    "tmdbId": 245891,
+    "tmdbTitle": "John Wick - De Volta ao Jogo",
+    "poster": "/lBcQGk1ygGM2wYmpypFrPp0YohN.jpg",
+    "backdrop": "/ff2ti5DkA9UYLzyqhQfI2kZqEuh.jpg"
+  },
+  "la-la-land": {
+    "tmdbId": 313369,
+    "tmdbTitle": "La La Land: Cantando Estações",
+    "poster": "/yArr9VMatOTEMRZ0H1s8pNHQW78.jpg",
+    "backdrop": "/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg"
+  },
+  "lisbela-e-o-prisioneiro": {
+    "tmdbId": 52345,
+    "tmdbTitle": "Lisbela e o Prisioneiro",
+    "poster": "/raCdo5Hjpd3uXbpSd1JZ7tEyE31.jpg",
+    "backdrop": "/eAOOeqa14oCxgdKxLvpDYxCJhqQ.jpg"
+  },
+  "mad-max-estrada-da-furia": {
+    "tmdbId": 76341,
+    "tmdbTitle": "Mad Max: Estrada da Fúria",
+    "poster": "/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg",
+    "backdrop": "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg"
+  },
+  "marte-um": {
+    "tmdbId": 913816,
+    "tmdbTitle": "Marte Um",
+    "poster": "/i3Oi5bm3ViUkszP5mjjEyhg9uQ0.jpg",
+    "backdrop": "/mYA6m2kruLxmqAApVcX8uMc0jNJ.jpg"
+  },
+  "matrix": {
+    "tmdbId": 603,
+    "tmdbTitle": "Matrix",
+    "poster": "/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg",
+    "backdrop": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg"
+  },
+  "meu-amigo-totoro": {
+    "tmdbId": 8392,
+    "tmdbTitle": "Meu Amigo Totoro",
+    "poster": "/ub3oHcMlMgjNMdAeeJonMTZ8som.jpg",
+    "backdrop": "/zkThiZAaAie8Lw7RAc5yPTOewBV.jpg"
+  },
+  "minha-mae-e-uma-peca": {
+    "tmdbId": 203217,
+    "tmdbTitle": "Minha Mãe é uma Peça: O Filme",
+    "poster": "/veCMD8bzoLuXiSGPCXCFKwJSO9v.jpg",
+    "backdrop": "/fUfPjSBBRlbBBbyWdGVEm222wlN.jpg"
+  },
+  "narcos": {
+    "tmdbId": 63351,
+    "tmdbTitle": "Narcos",
+    "poster": "/zzz1KiXWqr8SvqiAb1NmFtnV7Uu.jpg",
+    "backdrop": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
+    "stills": {
+      "narcos-t1e1": "/d9hKeZf0JsrNP4JjSe3EwZc3Vg2.jpg",
+      "narcos-t1e2": "/sjgSYABo4ugRiONcGNPYZeMKOAs.jpg",
+      "narcos-t1e3": "/qHo5EuiE7XOSIxXO5IAm0TBqN86.jpg",
+      "narcos-t1e4": "/6iV6dwdvYdEAeDXlgxGE2GN8bXQ.jpg",
+      "narcos-t1e5": "/bNVLra8arB4RjgmR6oPgifdKurc.jpg",
+      "narcos-t1e6": "/zp9M06o1Q0fF3TswJyW1Gx72OeY.jpg",
+      "narcos-t1e7": "/jciaP4kjTPJWGa1VCYFfwjkJt9p.jpg",
+      "narcos-t1e8": "/3Aet2wEAp3mFe6yKDN0GNwBmEEB.jpg",
+      "narcos-t1e9": "/92LZMtfuqiO8CQ26XhjCE74cG8z.jpg",
+      "narcos-t1e10": "/e8G5TXOzZC1QQSZcwm6VVLFZ1e1.jpg"
+    }
+  },
+  "o-iluminado": {
+    "tmdbId": 694,
+    "tmdbTitle": "O Iluminado",
+    "poster": "/7ceEaLciLfksJkSHqp0vLE5eLyy.jpg",
+    "backdrop": "/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg"
+  },
+  "o-menino-e-o-mundo": {
+    "tmdbId": 223706,
+    "tmdbTitle": "O Menino e o Mundo",
+    "poster": "/pNdqVuROes4tdWSbHPu4sKnmlaJ.jpg",
+    "backdrop": "/zmIFeh3xutkIFZBKYatzWF1XDu0.jpg"
+  },
+  "o-pagador-de-promessas": {
+    "tmdbId": 59990,
+    "tmdbTitle": "O Pagador de Promessas",
+    "poster": "/wqxzal8qzNi97iaSSSBQVAsNsyl.jpg",
+    "backdrop": "/k13mFZr51lcOxvLrHHCk9Llevcf.jpg"
+  },
+  "o-poderoso-chefao": {
+    "tmdbId": 238,
+    "tmdbTitle": "O Poderoso Chefão",
+    "poster": "/uP46DujkD3nwcisOjz9a0Xw0Knj.jpg",
+    "backdrop": "/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg"
+  },
+  "o-silencio-dos-inocentes": {
+    "tmdbId": 274,
+    "tmdbTitle": "O Silêncio dos Inocentes",
+    "poster": "/paGUSTwcFrAxpGV1hSQ2wsI28id.jpg",
+    "backdrop": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg"
+  },
+  "o-som-ao-redor": {
+    "tmdbId": 97989,
+    "tmdbTitle": "O Som ao Redor",
+    "poster": "/1kdTL3IvaTg3PqeRqYmE3Q1ESb4.jpg",
+    "backdrop": "/xJQsDKD6ZfQ9nJGtuKB4N878REq.jpg"
+  },
+  "oppenheimer": {
+    "tmdbId": 872585,
+    "tmdbTitle": "Oppenheimer",
+    "poster": "/1OsQJEoSXBjduuCvDOlRhoEUaHu.jpg",
+    "backdrop": "/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg"
+  },
+  "os-infiltrados": {
+    "tmdbId": 1422,
+    "tmdbTitle": "Os Infiltrados",
+    "poster": "/qtnAwzDapzOML4Q9p7lv2bk5gvz.jpg",
+    "backdrop": "/6WRrGYalXXveItfpnipYdayFkQB.jpg"
+  },
+  "parasita": {
+    "tmdbId": 496243,
+    "tmdbTitle": "Parasita",
+    "poster": "/bik2BZjmVjeE6LOZqtuTjb4jJPQ.jpg",
+    "backdrop": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg"
+  },
+  "planeta-terra-ii": {
+    "tmdbId": 68595,
+    "tmdbTitle": "Planeta Terra II",
+    "poster": "/zoJh5hPviHhXizZ8o8s2crkYrq4.jpg",
+    "backdrop": "/1DYpBOVdb7Mzc9DgMCdIBTN1JEC.jpg",
+    "stills": {
+      "planeta-terra-ii-t1e1": "/mzhYHfM1TT3G1g5y2cp31pqS0A3.jpg",
+      "planeta-terra-ii-t1e2": "/z1VetJpna9PCjSYO1qC8kwbANUl.jpg",
+      "planeta-terra-ii-t1e3": "/3PoeHd0mFx0IFUm4OppODPzfoxh.jpg",
+      "planeta-terra-ii-t1e4": "/5hytPmGKekErtB9RBzmaQ5ddBck.jpg",
+      "planeta-terra-ii-t1e5": "/v1mPkZhEcJnEavuxCpk2LnbdP46.jpg",
+      "planeta-terra-ii-t1e6": "/bRSMnw90kTJrozic94wug2VklvJ.jpg"
+    }
+  },
+  "princesa-mononoke": {
+    "tmdbId": 128,
+    "tmdbTitle": "Princesa Mononoke",
+    "poster": "/7EadOwHmyQgOnlghRiWBygNtnjl.jpg",
+    "backdrop": "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg"
+  },
+  "professor-polvo": {
+    "tmdbId": 682110,
+    "tmdbTitle": "Professor Polvo",
+    "poster": "/fQICeppytmblDIZeDZZpiodn1VX.jpg",
+    "backdrop": "/sW7VOrkHKYIeV9PaYc5IqGU2XK8.jpg"
+  },
+  "pulp-fiction": {
+    "tmdbId": 680,
+    "tmdbTitle": "Pulp Fiction: Tempo de Violência",
+    "poster": "/tptjnB2LDbuUWya9Cx5sQtv5hqb.jpg",
+    "backdrop": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg"
+  },
+  "que-horas-ela-volta": {
+    "tmdbId": 310569,
+    "tmdbTitle": "Que Horas Ela Volta?",
+    "poster": "/pLtU6oXgLmw3MweUMIALDlJYYDk.jpg",
+    "backdrop": "/9h5BsxRmxLAvASADo2VcTlTUdb0.jpg"
+  },
+  "questao-de-tempo": {
+    "tmdbId": 122906,
+    "tmdbTitle": "Questão de Tempo",
+    "poster": "/uqEzxvGDYNzoQE7rayv7gRXBomt.jpg",
+    "backdrop": "/einbto9qLXFx9QXxEHylaxDbKPx.jpg"
+  },
+  "roma": {
+    "tmdbId": 426426,
+    "tmdbTitle": "Roma",
+    "poster": "/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
+    "backdrop": "/zl9uqCl5iUSb50sTk2BPzw6bJnU.jpg"
+  },
+  "round-6": {
+    "tmdbId": 93405,
+    "tmdbTitle": "Round 6",
+    "poster": "/6gcHdboppvplmBWxvROc96NJnmm.jpg",
+    "backdrop": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+    "stills": {
+      "round-6-t1e1": "/vMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg",
+      "round-6-t1e2": "/uacNwki3PqXEFk9Pal9Ng5NwwAI.jpg",
+      "round-6-t1e3": "/xNtgrNEsMXvmRQQtcFuJdbXOjmP.jpg",
+      "round-6-t1e4": "/2VBE8mSP2bBEstfNlsWgXaKtzGO.jpg",
+      "round-6-t1e5": "/2pE9f6drlF7y9rwUw6dh1w6jF5M.jpg",
+      "round-6-t1e6": "/dk3yvrnE0k4algaT0uQKnXNGdun.jpg",
+      "round-6-t1e7": "/nobU31fAONV7Vuqm0sFORU3evTt.jpg",
+      "round-6-t1e8": "/y2J9b8RXahwGTGssMBv19QiuQCi.jpg",
+      "round-6-t1e9": "/sKeQbHeEUQLyoSdopa0QXm604cz.jpg"
+    }
+  },
+  "se-beber-nao-case": {
+    "tmdbId": 18785,
+    "tmdbTitle": "Se Beber, Não Case!",
+    "poster": "/q55Gluy15mKdjgES7TdETHecWqv.jpg",
+    "backdrop": "/iuRVt8tFiXDPGgzavhuSa3QHRxD.jpg"
+  },
+  "senhor-dos-aneis-retorno-do-rei": {
+    "tmdbId": 122,
+    "tmdbTitle": "O Senhor dos Anéis: O Retorno do Rei",
+    "poster": "/egSO4klmc9pnI1CNnHoYKV70XKI.jpg",
+    "backdrop": "/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg"
+  },
+  "senhor-dos-aneis-sociedade-do-anel": {
+    "tmdbId": 120,
+    "tmdbTitle": "O Senhor dos Anéis: A Sociedade do Anel",
+    "poster": "/omoMXT3Z7XrQwRZ2OGJGNWbdeEl.jpg",
+    "backdrop": "/oiwc338EoBgS4sEI2ixAny4KQKg.jpg"
+  },
+  "senna": {
+    "tmdbId": 58496,
+    "tmdbTitle": "Senna",
+    "poster": "/j0DbcqFzXB6Bk9fqvgcp1iZG8wj.jpg",
+    "backdrop": "/vtXCGAkCx5o2p0jn3A1QmdR5u5i.jpg"
+  },
+  "seven": {
+    "tmdbId": 807,
+    "tmdbTitle": "Seven - Os Sete Crimes Capitais",
+    "poster": "/cNFCNa5jUYmFmSpCg7dJ3jWd22d.jpg",
+    "backdrop": "/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg"
+  },
+  "sherlock": {
+    "tmdbId": 19885,
+    "tmdbTitle": "Sherlock",
+    "poster": "/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+    "backdrop": "/8rvLEmdI4gLrMO1rLqbNdnNcPFE.jpg",
+    "stills": {
+      "sherlock-t1e1": "/u8xvgVzTQjAeRu68sI9JJHeQSuA.jpg",
+      "sherlock-t1e2": "/cp1mf1pwb8F7NcuCJkzcfxIkZw2.jpg",
+      "sherlock-t1e3": "/inRnf07LWmlT5Z3KkS4iWlBX48x.jpg"
+    }
+  },
+  "stranger-things": {
+    "tmdbId": 66732,
+    "tmdbTitle": "Stranger Things",
+    "poster": "/twfKp60THrcOIep9sjHODOOfO8d.jpg",
+    "backdrop": "/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+    "stills": {
+      "stranger-things-t1e1": "/6jSA6JpxNDV63aDXpmsUFCjCINb.jpg",
+      "stranger-things-t1e2": "/8iA56ugQyHZmX81wSsNqwXjCE6F.jpg",
+      "stranger-things-t1e3": "/5snULpWQWp7aqFto7UbRcEkEyyS.jpg",
+      "stranger-things-t1e4": "/60wmC1e20HV8gu688GAhsWxqxPx.jpg",
+      "stranger-things-t1e5": "/exT4NW9EdXG1qLZHKJnRpq3gh1H.jpg",
+      "stranger-things-t1e6": "/lNS6qycyucewz3duTr1tf1LU688.jpg",
+      "stranger-things-t1e7": "/arjP5c4qHLznbujCrrBVz4Z8Ykl.jpg",
+      "stranger-things-t1e8": "/1teJ5dbuepfqOOs9uYhYTUjr2qs.jpg"
+    }
+  },
+  "superbad": {
+    "tmdbId": 8363,
+    "tmdbTitle": "Superbad: É Hoje",
+    "poster": "/EdJjWAYvOCPE3kvvVHGuSNHxSl.jpg",
+    "backdrop": "/coru98UcFBzJIU7bxZguxaePgu0.jpg"
+  },
+  "the-crown": {
+    "tmdbId": 65494,
+    "tmdbTitle": "The Crown",
+    "poster": "/ehUMAA3qDR5HNor9DB60g72KNQZ.jpg",
+    "backdrop": "/8VXhcrl5z2I1zEU9X3pkkNrZlD.jpg",
+    "stills": {
+      "the-crown-t1e1": "/8JKsglmOt1BDvSs3ZZT30eV4YnN.jpg",
+      "the-crown-t1e2": "/8IkKHAQ45TJAQpo0G5oKFPTODYu.jpg",
+      "the-crown-t1e3": "/g6AACHbM1JCGs8lUKUJu6aDg34S.jpg",
+      "the-crown-t1e4": "/tYwcQoXHZmT5hfmvB3mu8ppt9Fx.jpg",
+      "the-crown-t1e5": "/n92zYAYid4VVNnonZQX3Zuiy1d9.jpg",
+      "the-crown-t1e6": "/kU4DsZzPpuybnOUuSQzxDwP61od.jpg"
+    }
+  },
+  "the-last-of-us": {
+    "tmdbId": 100088,
+    "tmdbTitle": "The Last of Us",
+    "poster": "/qWo5TP7mBijoZrfxBJkUMctkBt0.jpg",
+    "backdrop": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+    "stills": {
+      "the-last-of-us-t1e1": "/3VeY1k8wFyhcrMyQ8jpGegh9beU.jpg",
+      "the-last-of-us-t1e2": "/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg",
+      "the-last-of-us-t1e3": "/fmaiMjbLXaeRyq2so0EXf3hrpyc.jpg",
+      "the-last-of-us-t1e4": "/nYPkaj0a5m4Y9xHdDADtnzh6zOL.jpg",
+      "the-last-of-us-t1e5": "/ztzxqW4IAVQRVimxhIfryP4CuI9.jpg",
+      "the-last-of-us-t1e6": "/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg",
+      "the-last-of-us-t1e7": "/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg",
+      "the-last-of-us-t1e8": "/iNbhbEOt1KAeqr5iyL9QOAZzgzT.jpg",
+      "the-last-of-us-t1e9": "/4WZ9E8IGl9tkka9JPh325Lc1kfh.jpg"
+    }
+  },
+  "the-office": {
+    "tmdbId": 2316,
+    "tmdbTitle": "The Office",
+    "poster": "/zlghlgOvIU9Cyz3S2uib8ldFKJl.jpg",
+    "backdrop": "/9vMzIrMIncPmtalcxh1MOrgcE6C.jpg",
+    "stills": {
+      "the-office-t1e1": "/axt2TV2b3FAs1ZEg1mdKV1ZJnfW.jpg",
+      "the-office-t1e2": "/frHasw3YEEkpNlDNzHZpFjJWwhk.jpg",
+      "the-office-t1e3": "/b92iKLwxKRGBjKQ2R5k7L9kCPPo.jpg",
+      "the-office-t1e4": "/9nZh7ikeLZfFYnYs6yf8Nc36fu.jpg",
+      "the-office-t1e5": "/2retmsI3vrQupspr9i2ZB21PhhN.jpg",
+      "the-office-t1e6": "/qZJcuMRsXV8fI3dif0OUH6Wu4KQ.jpg"
+    }
+  },
+  "the-wire": {
+    "tmdbId": 1438,
+    "tmdbTitle": "A Escuta",
+    "poster": "/taMUpRAnpZzi5yEaDQ45KhKGRyu.jpg",
+    "backdrop": "/aQTtua5pG490fMfeKgtYg5B853e.jpg",
+    "stills": {
+      "the-wire-t1e1": "/iyo7TGnaaEwNSsj71LB2nyjIB1t.jpg",
+      "the-wire-t1e2": "/eCkv6Ihew8igmnUpEGO784IjOCA.jpg",
+      "the-wire-t1e3": "/iio1fYKajoNb0gPySBTBXfmAlas.jpg",
+      "the-wire-t1e4": "/p2Wf387VeXvsPX021AT7Ov4KRHH.jpg",
+      "the-wire-t1e5": "/hGWCLPaie8xmI2BHBenox7wdTac.jpg"
+    }
+  },
+  "titanic": {
+    "tmdbId": 597,
+    "tmdbTitle": "Titanic",
+    "poster": "/As0zX43h3w6kD2NS4uVHu9HKdEh.jpg",
+    "backdrop": "/sCzcYW9h55WcesOqA12cgEr9Exw.jpg"
+  },
+  "top-gun-maverick": {
+    "tmdbId": 361743,
+    "tmdbTitle": "Top Gun: Maverick",
+    "poster": "/kPbuLGVSJHATkW9fX9L3h1wM0Pa.jpg",
+    "backdrop": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg"
+  },
+  "toy-story": {
+    "tmdbId": 862,
+    "tmdbTitle": "Toy Story: Um Mundo de Aventuras",
+    "poster": "/686F0CEPmI4ZXjFbWtIHQOBwnfI.jpg",
+    "backdrop": "/8AqWECiUHnz1Crj69uB9vhiK9Le.jpg"
+  },
+  "tropa-de-elite": {
+    "tmdbId": 7347,
+    "tmdbTitle": "Tropa de Elite",
+    "poster": "/atl4a9VFVP7JYvk4GeSgqhLOfjC.jpg",
+    "backdrop": "/huUgrGkCetYSkDl5fMvZCXCbFKl.jpg"
+  },
+  "tropa-de-elite-2": {
+    "tmdbId": 47931,
+    "tmdbTitle": "Tropa de Elite 2: O Inimigo Agora é Outro",
+    "poster": "/ldCCmRdBPk5FR13W975zXAM1dGi.jpg",
+    "backdrop": "/tmowA51oykuOdiyqRCP0jGYU1mB.jpg"
+  },
+  "true-detective": {
+    "tmdbId": 46648,
+    "tmdbTitle": "True Detective",
+    "poster": "/1fxr55V72a2gtqyn2b8pf6FslOf.jpg",
+    "backdrop": "/v8YFr8BbU9qsO8PYIulzTeM6Qk.jpg",
+    "stills": {
+      "true-detective-t1e1": "/lnludtHZ9CUbXvyFk1ZnoOsXp6o.jpg",
+      "true-detective-t1e2": "/65QvyYynb2taf3kq3Py6yuRApSC.jpg",
+      "true-detective-t1e3": "/9Icv5WubrQ0Cs7nEUxQ4WtD86Zm.jpg",
+      "true-detective-t1e4": "/rxIdNZxiGOsw4AYmnWnBxlRr3uX.jpg",
+      "true-detective-t1e5": "/5rsNeL1oUdEJoXW3Mlz3Z8gYoEy.jpg",
+      "true-detective-t1e6": "/d37mf5zqg4qmjhW12YfJ2bKkJPs.jpg",
+      "true-detective-t1e7": "/cj7WwlFJ9oo4D4iK91s7ZygZixS.jpg",
+      "true-detective-t1e8": "/larzfSafxyBkcAZfNd0MSaGLRHK.jpg"
+    }
+  },
+  "tudo-em-todo-lugar": {
+    "tmdbId": 545611,
+    "tmdbTitle": "Tudo em Todo o Lugar ao Mesmo Tempo",
+    "poster": "/bW21kbvqAt2kMGlaU8qY86C8kQE.jpg",
+    "backdrop": "/fIwiFha3WPu5nHkBeMQ4GzEk0Hv.jpg"
+  },
+  "um-lugar-silencioso": {
+    "tmdbId": 447332,
+    "tmdbTitle": "Um Lugar Silencioso",
+    "poster": "/tH0YRWQciL1pkwnLR7cZ7xSh7oA.jpg",
+    "backdrop": "/nHRUtBwFNnNN70vcQ7lAsjc2T6S.jpg"
+  },
+  "um-sonho-de-liberdade": {
+    "tmdbId": 278,
+    "tmdbTitle": "Um Sonho de Liberdade",
+    "poster": "/xSnM4ahmz692msbMTBsfBWHvR3M.jpg",
+    "backdrop": "/pNjh59JSxChQktamG3LMp9ZoQzp.jpg"
+  },
+  "viva-a-vida-e-uma-festa": {
+    "tmdbId": 354912,
+    "tmdbTitle": "Viva: A Vida é Uma Festa",
+    "poster": "/sdl31AfqivY0tryVfo9GMcAUx05.jpg",
+    "backdrop": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg"
+  },
+  "whiplash": {
+    "tmdbId": 244786,
+    "tmdbTitle": "Whiplash: Em Busca da Perfeição",
+    "poster": "/2msJb27jMeuA101ox4MuTQK4mDa.jpg",
+    "backdrop": "/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg"
+  },
+  "your-name": {
+    "tmdbId": 372058,
+    "tmdbTitle": "Your Name.",
+    "poster": "/bMOKAjTU1TNUjRSF7icldbii06u.jpg",
+    "backdrop": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg"
+  }
+}
