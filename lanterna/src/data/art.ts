@@ -9,7 +9,7 @@ import covers from "./covers.json";
 const TMDB_IMG = "https://image.tmdb.org/t/p/";
 
 interface Cover {
-  tmdbId: number;
+  tmdbId?: number; // ausente quando a série veio de curtas avulsos
   poster?: string;
   backdrop?: string;
   stills?: Record<string, string>; // episodeId -> caminho da miniatura
@@ -26,10 +26,14 @@ for (const [path, url] of Object.entries(files)) {
 export function art(id: string, kind: "poster" | "backdrop"): string {
   const path = COVERS[id]?.[kind];
   if (path) return TMDB_IMG + (kind === "poster" ? "w500" : "w1280") + path;
-  return byName[`${id}-${kind}`] ?? "";
+  const local = byName[`${id}-${kind}`];
+  if (local) return local;
+  // sem fundo oficial nem ilustração: usa o pôster (e vice-versa)
+  const other = COVERS[id]?.[kind === "poster" ? "backdrop" : "poster"];
+  return other ? TMDB_IMG + "w780" + other : "";
 }
 
-export function cover(id: string): { tmdbId: number; still(episodeId: string): string | undefined } | undefined {
+export function cover(id: string): { tmdbId?: number; still(episodeId: string): string | undefined } | undefined {
   const c = COVERS[id];
   if (!c) return undefined;
   return { tmdbId: c.tmdbId, still: (ep) => (c.stills?.[ep] ? TMDB_IMG + "w300" + c.stills[ep] : undefined) };

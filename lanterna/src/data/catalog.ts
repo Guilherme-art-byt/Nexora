@@ -1,6 +1,7 @@
 import type { AgeRating, Title } from "@/types";
 import { EN, PT, movie, series } from "./titleBuilders";
 import { MORE_TITLES } from "./catalog.more";
+import { PUBLIC_DOMAIN_TITLES } from "./catalog.publicDomain";
 
 /**
  * CATÁLOGO REAL
@@ -453,7 +454,7 @@ const BASE_TITLES: Title[] = [
 
 
 
-export const DEMO_TITLES: Title[] = [...BASE_TITLES, ...MORE_TITLES];
+export const DEMO_TITLES: Title[] = [...BASE_TITLES, ...MORE_TITLES, ...PUBLIC_DOMAIN_TITLES];
 
 export const RATING_INFO: Record<AgeRating, { label: string; color: string }> = {
   L: { label: "Livre", color: "#1f9d55" },

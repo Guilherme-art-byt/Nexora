@@ -53,8 +53,8 @@ async function call(path, params = {}) {
 
 const norm = (s = "") => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
-async function findId(t) {
-  const isTv = t.kind === "series";
+async function findId(t, kindOverride) {
+  const isTv = (kindOverride ?? t.kind) === "series";
   const kind = isTv ? "tv" : "movie";
   const yearKey = isTv ? "first_air_date_year" : "primary_release_year";
   const names = [...new Set([t.originalTitle, t.title].filter(Boolean))];
@@ -89,9 +89,35 @@ function pick(images, lang) {
   };
 }
 
+async function movieArt(id) {
+  const d = await call(`/movie/${id}`, { append_to_response: "images", include_image_language: "pt,en,null" });
+  const p = pick(d.images, d.original_language === "pt" ? "pt" : "en");
+  return { title: d.title, poster: p.poster ?? d.poster_path ?? undefined, backdrop: p.backdrop ?? d.backdrop_path ?? undefined };
+}
+
+/**
+ * Séries que o TMDB cadastra como filmes avulsos (curtas clássicos): cada episódio com
+ * `originalTitle` é procurado como filme. A capa da série vem do primeiro episódio e cada
+ * episódio ganha o fundo (ou pôster) do próprio curta como miniatura.
+ */
+async function resolveFromEpisodes(t) {
+  const eps = (t.seasons ?? []).flatMap((s) => s.episodes.map((e) => ({ e, year: s.year })));
+  if (!eps.length || !eps.every(({ e }) => e.originalTitle)) return null;
+  const entry = { stills: {} };
+  for (const { e, year } of eps) {
+    const id = await findId({ kind: "movie", title: e.title, originalTitle: e.originalTitle, year }, "movie");
+    if (!id) continue;
+    const a = await movieArt(id);
+    if (!entry.poster && a.poster) { entry.poster = a.poster; entry.backdrop = a.backdrop; entry.tmdbTitle = `${a.title} (episódio)`; }
+    const still = a.backdrop ?? a.poster;
+    if (still) entry.stills[e.id] = still;
+  }
+  return entry.poster ? entry : null;
+}
+
 async function resolveTitle(t) {
   const id = await findId(t);
-  if (!id) return null;
+  if (!id) return t.kind === "series" ? resolveFromEpisodes(t) : null;
   const isTv = t.kind === "series";
   const d = await call(`/${isTv ? "tv" : "movie"}/${id}`, { append_to_response: "images", include_image_language: "pt,en,null" });
   const p = pick(d.images, d.original_language === "pt" ? "pt" : "en");

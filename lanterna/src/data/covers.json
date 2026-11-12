@@ -5,6 +5,12 @@
     "poster": "/pKtfLDttqvXX4VEe5ws3IcbgF1Y.jpg",
     "backdrop": "/8MUZz7oPXQftFTslZpRP3CVMOoq.jpg"
   },
+  "a-general-1926": {
+    "tmdbId": 961,
+    "tmdbTitle": "A General",
+    "poster": "/bOhlKm4l3a79r7JroEYybccfWzR.jpg",
+    "backdrop": "/mzox4HbcV9W42MH2dB1QsdDVGo3.jpg"
+  },
   "a-lista-de-schindler": {
     "tmdbId": 424,
     "tmdbTitle": "A Lista de Schindler",
@@ -126,6 +132,12 @@
     "poster": "/qvmLAVqNB5TbGUa9QqQvXiFC4UR.jpg",
     "backdrop": "/nhsC7Q1Zb5n2p4H3UKy422zP5XC.jpg"
   },
+  "bancando-o-aguia": {
+    "tmdbId": 992,
+    "tmdbTitle": "Bancando o Águia",
+    "poster": "/pLQhs83bohZ9F7WkJgK41ljPJsr.jpg",
+    "backdrop": "/tSipsYTp565LkopntX1lZNLPYHP.jpg"
+  },
   "band-of-brothers": {
     "tmdbId": 4613,
     "tmdbTitle": "Band of Brothers",
@@ -214,6 +226,25 @@
     "poster": "/qfyWFhUhqeNRU9HmCaBDAxVKRZ9.jpg",
     "backdrop": "/lrLIy9OFRQg4VkhrCyolfNXJEUH.jpg"
   },
+  "chaplin-mutual": {
+    "stills": {
+      "chaplin-mutual-t1e1": "/zheU0EcGkgi9brbP4QKDNRSYmp1.jpg",
+      "chaplin-mutual-t1e2": "/qKkO3tWMdiixU6MuVFl9xGmlJVl.jpg",
+      "chaplin-mutual-t1e3": "/zkhgoGjeQCNcEgQjIHOwMBCF7BR.jpg",
+      "chaplin-mutual-t1e4": "/9LnEeVTAfem92s9oVkVQ4IqyeAQ.jpg",
+      "chaplin-mutual-t1e5": "/5By0VL48G2tuyK8kBXyRHi5AYUV.jpg",
+      "chaplin-mutual-t1e6": "/jLR6F5jxSe1QnCpkP0OuHXiTo8N.jpg",
+      "chaplin-mutual-t1e7": "/nAQCbl1RgbfUiU22F1NHlXgQMpR.jpg",
+      "chaplin-mutual-t1e8": "/5yhjnsIkiTrZGrlN2bXqMluprBP.jpg",
+      "chaplin-mutual-t1e9": "/v637wt18xznrE2NU56Y3MB1MrNs.jpg",
+      "chaplin-mutual-t1e10": "/HwFD8k6oSvWllulfscvXs9jUbR.jpg",
+      "chaplin-mutual-t1e11": "/lwZjheIzg6Mnc24gBX7tsFpYB8H.jpg",
+      "chaplin-mutual-t1e12": "/2Q9FQinT807S55WdK6ozkyme69a.jpg"
+    },
+    "poster": "/dwyIg2mgBgaHQEeBnUHNzCkze1g.jpg",
+    "backdrop": "/zheU0EcGkgi9brbP4QKDNRSYmp1.jpg",
+    "tmdbTitle": "Carlitos no Armazém (episódio)"
+  },
   "chernobyl": {
     "tmdbId": 87108,
     "tmdbTitle": "Chernobyl",
@@ -239,6 +270,12 @@
     "poster": "/nu7FEmC4zBaZ7c3QYmVpDlZa2H0.jpg",
     "backdrop": "/c6OLXfKAk5BKeR6broC8pYiCquX.jpg"
   },
+  "com-as-horas-contadas": {
+    "tmdbId": 18995,
+    "tmdbTitle": "Com as Horas Contadas",
+    "poster": "/7VSnT4E3TwBCRb5TdqaFlqhm7Jd.jpg",
+    "backdrop": "/rsl2YCe2bSeni2qGdaMoDBS7sLo.jpg"
+  },
   "coringa": {
     "tmdbId": 475557,
     "tmdbTitle": "Coringa",
@@ -263,6 +300,12 @@
       "cosmos-t1e4": "/q8ubQz9NDIMukbev1wG30g60OgI.jpg",
       "cosmos-t1e5": "/q9XFUwD7uwubjZFTgG49tX3diB.jpg"
     }
+  },
+  "curva-do-destino": {
+    "tmdbId": 20367,
+    "tmdbTitle": "Curva do Destino",
+    "poster": "/gJb9HRAs1V4bA0VKsWpT6mhv2RT.jpg",
+    "backdrop": "/uGOKN4VeCsf249zypWfaAzfTxAB.jpg"
   },
   "dark": {
     "tmdbId": 70523,
@@ -319,11 +362,23 @@
     "poster": "/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
     "backdrop": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg"
   },
+  "encouracado-potemkin": {
+    "tmdbId": 643,
+    "tmdbTitle": "O Encouraçado Potemkin",
+    "poster": "/a1AvYpBbEixfNK6KgG5bpowsm7X.jpg",
+    "backdrop": "/3RH61Z7BP3f215936PJBEG2qQrT.jpg"
+  },
   "entre-facas-e-segredos": {
     "tmdbId": 546554,
     "tmdbTitle": "Entre Facas e Segredos",
     "poster": "/AtPef71peagutmWMuqpZU7f3aid.jpg",
     "backdrop": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg"
+  },
+  "fantasma-da-opera-1925": {
+    "tmdbId": 964,
+    "tmdbTitle": "O Fantasma da Ópera",
+    "poster": "/g6gFsONr9GdGiIhbdpqM65Patbi.jpg",
+    "backdrop": "/6FSs7jMimg1PBYdhZtPNQhtKtEc.jpg"
   },
   "forrest-gump": {
     "tmdbId": 13,
@@ -364,6 +419,12 @@
       "fullmetal-alchemist-brotherhood-t1e5": "/feiw4Fe4sVQU7yUXqLEem7qK1rR.jpg"
     }
   },
+  "gabinete-do-dr-caligari": {
+    "tmdbId": 234,
+    "tmdbTitle": "O Gabinete do Dr. Caligari",
+    "poster": "/j09TT0S1crBSYjPu14vgzSSFqFo.jpg",
+    "backdrop": "/sLq72hBx8Xs2IISVsZJqgjOd31b.jpg"
+  },
   "game-of-thrones": {
     "tmdbId": 1399,
     "tmdbTitle": "Game of Thrones",
@@ -396,6 +457,12 @@
     "poster": "/wonYMeHauhrxSi5UTOtj5L479mS.jpg",
     "backdrop": "/4DUoPZOHdPuROP4nyEIsPaMIiQl.jpg"
   },
+  "homem-com-uma-camera": {
+    "tmdbId": 26317,
+    "tmdbTitle": "Um Homem com uma Câmera",
+    "poster": "/z0VYMtZFOMpmnP4JPoJvAXmWRAD.jpg",
+    "backdrop": "/xPuGtHPc1aADsfXds87noXVz2Hh.jpg"
+  },
   "hora-de-aventura": {
     "tmdbId": 15260,
     "tmdbTitle": "Hora de Aventura",
@@ -426,6 +493,12 @@
     "tmdbTitle": "It: A Coisa",
     "poster": "/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg",
     "backdrop": "/qVGpxnjrGlHaSTCqTQI6viBDSfp.jpg"
+  },
+  "jejum-de-amor": {
+    "tmdbId": 3085,
+    "tmdbTitle": "Jejum de Amor",
+    "poster": "/zK9GxBsPGoeVTpO6cwVnvZXld7Z.jpg",
+    "backdrop": "/ihoQaiMFAz4YCTAaSIsQjRknsNH.jpg"
   },
   "john-wick": {
     "tmdbId": 245891,
@@ -492,6 +565,18 @@
       "narcos-t1e9": "/92LZMtfuqiO8CQ26XhjCE74cG8z.jpg",
       "narcos-t1e10": "/e8G5TXOzZC1QQSZcwm6VVLFZ1e1.jpg"
     }
+  },
+  "nosferatu-1922": {
+    "tmdbId": 653,
+    "tmdbTitle": "Nosferatu: Uma Sinfonia de Horror",
+    "poster": "/nG4v5d3MtWTWdKOQ4UCbwgNrRuN.jpg",
+    "backdrop": "/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg"
+  },
+  "o-estranho-1946": {
+    "tmdbId": 20246,
+    "tmdbTitle": "O Estranho",
+    "poster": "/pdgS6f1OFLDZmBuLqiVDabyyKOF.jpg",
+    "backdrop": "/osCupz9uxvUoca6aqSSkns1UnlQ.jpg"
   },
   "o-iluminado": {
     "tmdbId": 694,
@@ -614,6 +699,11 @@
       "round-6-t1e9": "/sKeQbHeEUQLyoSdopa0QXm604cz.jpg"
     }
   },
+  "sao-paulo-sinfonia-da-metropole": {
+    "tmdbId": 190079,
+    "tmdbTitle": "São Paulo, A Symphonia da Metrópole",
+    "poster": "/xewye9ZL1dLtIe6q6JDZhFMEwic.jpg"
+  },
   "se-beber-nao-case": {
     "tmdbId": 18785,
     "tmdbTitle": "Se Beber, Não Case!",
@@ -676,6 +766,30 @@
     "tmdbTitle": "Superbad: É Hoje",
     "poster": "/EdJjWAYvOCPE3kvvVHGuSNHxSl.jpg",
     "backdrop": "/coru98UcFBzJIU7bxZguxaePgu0.jpg"
+  },
+  "superman-fleischer": {
+    "stills": {
+      "superman-fleischer-t1e1": "/2XoKGbgecCzEhrjTegjeZGqtCbJ.jpg",
+      "superman-fleischer-t1e2": "/kOEWsnIfg04L4ET970mLPXvXY4H.jpg",
+      "superman-fleischer-t1e3": "/k2NJCwVVrfRfKTYc9RxCFfiN8RL.jpg",
+      "superman-fleischer-t1e4": "/m2eanloXGfUxtUht87sUTGEs9D7.jpg",
+      "superman-fleischer-t1e5": "/rg1w1kEb7vo9fp4UbBV2b6S12EF.jpg",
+      "superman-fleischer-t1e6": "/y8AXLYOTH1b812FecRsd8vzDgDf.jpg",
+      "superman-fleischer-t1e7": "/4RRxNWec7yr5r4WkFsawhWCyZjq.jpg",
+      "superman-fleischer-t1e8": "/dYQC8VIsFieiOWZMUJx7nJz6gz1.jpg",
+      "superman-fleischer-t1e9": "/mFobsnATK28MVZ4LZQzvqNQoMzN.jpg",
+      "superman-fleischer-t2e1": "/3XiTbrkMqq8IjQg8nVDWvAwqUrd.jpg",
+      "superman-fleischer-t2e2": "/oGzRHB06DP3WZiA8sXIji3VVbY9.jpg",
+      "superman-fleischer-t2e3": "/uynocYnuaEtSvEDzju7YVyBAAGm.jpg",
+      "superman-fleischer-t2e4": "/vTF1IAbSTgZtNenG5xU2uWy4o7n.jpg",
+      "superman-fleischer-t2e5": "/pJLFA1xuflYxlw3YjdFGklrmSYO.jpg",
+      "superman-fleischer-t2e6": "/ocNjHNGergKFqDH7KY6fHM3GYz1.jpg",
+      "superman-fleischer-t2e7": "/12ouO7lHyA4ehF636IEHLzDs4gN.jpg",
+      "superman-fleischer-t2e8": "/dTOi8eZ9sSkgB384oUOqeg9m0zq.jpg"
+    },
+    "poster": "/4DK6wWZTp6v32NUXszkHOPGxm16.jpg",
+    "backdrop": "/2XoKGbgecCzEhrjTegjeZGqtCbJ.jpg",
+    "tmdbTitle": "Superman contra o Cientista Louco (episódio)"
   },
   "the-crown": {
     "tmdbId": 65494,
@@ -798,6 +912,12 @@
     "tmdbTitle": "Um Sonho de Liberdade",
     "poster": "/xSnM4ahmz692msbMTBsfBWHvR3M.jpg",
     "backdrop": "/pNjh59JSxChQktamG3LMp9ZoQzp.jpg"
+  },
+  "viagem-a-lua": {
+    "tmdbId": 775,
+    "tmdbTitle": "Viagem à Lua",
+    "poster": "/lw2x13m4zdqnK7SizPI5orokhas.jpg",
+    "backdrop": "/g67r1eiQD3ERSEQFCFkSn7TeGw5.jpg"
   },
   "viva-a-vida-e-uma-festa": {
     "tmdbId": 354912,

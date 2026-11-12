@@ -1,5 +1,6 @@
 import { DEMO_TITLES } from "@/data/catalog";
 import { DEMO_SOURCE } from "@/player/sources";
+import { PUBLIC_DOMAIN_SOURCES } from "@/player/publicDomain";
 import { hashPassword, randomSalt, uid, verifyPassword } from "@/lib/crypto";
 import { load, remove, save } from "@/lib/storage";
 import type { Account, Notification, Profile, ProgressEntry, Rating, Role, StoredAccount, Title, VideoSource, ViewEvent } from "@/types";
@@ -71,7 +72,7 @@ export class LocalRepository implements Repository {
   }
 
   async listSources() {
-    return [DEMO_SOURCE, ...load<VideoSource[]>(K.sources, [])];
+    return [DEMO_SOURCE, ...PUBLIC_DOMAIN_SOURCES, ...load<VideoSource[]>(K.sources, [])];
   }
 
   async saveSource(s: VideoSource) {

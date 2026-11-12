@@ -16,7 +16,8 @@ export default function Watch({ param }: { param: string }) {
 
   const source = useMemo(() => {
     if (!target) return undefined;
-    return sources.find((s) => s.id === (target.title.sourceId ?? "demo")) ?? sources.find((s) => s.id === "demo");
+    const wanted = target.episode?.sourceId ?? target.title.sourceId ?? "demo";
+    return sources.find((s) => s.id === wanted) ?? sources.find((s) => s.id === "demo");
   }, [sources, target]);
 
   const entry = target && library.progress.find((p) => p.titleId === target.title.id && p.episodeId === target.episode?.id);

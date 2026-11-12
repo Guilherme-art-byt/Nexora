@@ -13,6 +13,7 @@ import { isDemo, repo, tmdbEnabled, tmdbTransport } from "@/services";
 import { importFromTmdb, searchTmdb, withOfficialArt, type TmdbHit } from "@/services/tmdb";
 import { useApp } from "@/store/app";
 import { useUI } from "@/store/ui";
+import { isBuiltInSource } from "@/player/publicDomain";
 import type { Account, AgeRating, Episode, Season, Title, VideoSource, ViewEvent } from "@/types";
 
 const TABS: { name: RouteName; label: string; icon: typeof Film }[] = [
@@ -648,10 +649,10 @@ export function AdminSources() {
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-lamp/15 text-lamp"><Video size={20} /></span>
             <div className="min-w-0 flex-1">
               <p className="font-semibold">{s.name}</p>
-              <p className="text-sm text-mute">{s.renditions.map((r) => r.label).join(", ")}; {s.audio.length} áudio; {s.subtitles.length} legenda(s); usada por {allTitles.filter((t) => t.sourceId === s.id).length} título(s)</p>
+              <p className="text-sm text-mute">{s.renditions.map((r) => r.label).join(", ")}; {s.audio.length} áudio; {s.subtitles.length} legenda(s); usada por {allTitles.filter((t) => t.sourceId === s.id || t.seasons?.some((x) => x.episodes.some((e) => e.sourceId === s.id))).length} título(s)</p>
               <p className="mt-1 text-xs text-mute">{s.license}</p>
             </div>
-            {s.id !== "demo" && <button onClick={() => remove(s)} className="grid h-9 w-9 place-items-center rounded-lg text-ember hover:bg-ember/10" aria-label={`Excluir ${s.name}`}><Trash2 size={16} /></button>}
+            {!isBuiltInSource(s.id) && <button onClick={() => remove(s)} className="grid h-9 w-9 place-items-center rounded-lg text-ember hover:bg-ember/10" aria-label={`Excluir ${s.name}`}><Trash2 size={16} /></button>}
           </div>
         ))}
       </section>

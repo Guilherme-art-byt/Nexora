@@ -36,6 +36,7 @@ export default function Home() {
       rec,
       trending: popular.slice(0, 10),
       brazil: popular.filter((t) => t.country.includes("Brasil")),
+      fullFree: popular.filter((t) => t.sourceId?.startsWith("pd-")),
       animation: popular.filter((t) => t.genres.includes("Anime") || t.genres.includes("Animação")),
       recent: [...titles].sort(byRecent).slice(0, 14),
       movies: popular.filter((t) => t.kind === "movie").slice(0, 14),
@@ -63,6 +64,7 @@ export default function Home() {
         <ContinueWatching />
         <MovieCarousel title={rows.rec.personalized ? `Recomendados para ${profile.id === "guest" ? "você" : profile.name}` : "Comece por aqui"} items={rows.rec.items} />
         <MovieCarousel title="Em alta hoje" items={rows.trending} ranked />
+        <MovieCarousel title="Clássicos completos: domínio público" items={rows.fullFree} />
         <MovieCarousel title="Cinema brasileiro" items={rows.brazil} />
         <MovieCarousel title="Lançamentos recentes" items={rows.recent} />
         <MovieCarousel title="Filmes populares" items={rows.movies} />

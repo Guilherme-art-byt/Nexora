@@ -3,7 +3,7 @@ import { art, cover } from "./art";
 
 /** Construtores usados pelos arquivos de catálogo. */
 const people = (s: string): Person[] =>
-  s.split(";").map((p) => {
+  s.split(";").filter((p) => p.trim()).map((p) => {
     const [name, role] = p.split("|").map((x) => x.trim());
     return { name, role };
   });
@@ -26,6 +26,7 @@ export interface Base {
   keywords: string;
   awarded?: string; // descrição do prêmio principal
   added: string;
+  sourceId?: string; // fonte de vídeo (padrão: vídeo de demonstração)
 }
 
 const common = (b: Base) => ({
@@ -47,7 +48,7 @@ const common = (b: Base) => ({
   keywords: b.keywords.split(",").map((k) => k.trim()),
   poster: art(b.id, "poster"),
   backdrop: art(b.id, "backdrop"),
-  sourceId: "demo",
+  sourceId: b.sourceId ?? "demo",
   awarded: !!b.awarded,
   awards: b.awarded,
   addedAt: b.added,
@@ -57,7 +58,7 @@ const common = (b: Base) => ({
 
 export const movie = (b: Base & { duration: number }): Title => ({ ...common(b), kind: "movie", durationMin: b.duration });
 
-export type Ep = [title: string, synopsis: string, minutes: number];
+export type Ep = [title: string, synopsis: string, minutes: number, extra?: { sourceId?: string; originalTitle?: string }];
 export const series = (b: Base & { seasonCount: number; seasons: { number?: number; year: number; total?: number; eps: Ep[] }[] }): Title => ({
   ...common(b),
   kind: "series",
@@ -68,13 +69,15 @@ export const series = (b: Base & { seasonCount: number; seasons: { number?: numb
       number: n,
       year: s.year,
       totalEpisodes: s.total,
-      episodes: s.eps.map(([title, synopsis, durationMin], ei) => ({
+      episodes: s.eps.map(([title, synopsis, durationMin, extra], ei) => ({
         id: `${b.id}-t${n}e${ei + 1}`,
         number: ei + 1,
         title,
         synopsis,
         durationMin,
         thumbFocus: (ei * 23 + si * 37) % 100,
+        sourceId: extra?.sourceId,
+        originalTitle: extra?.originalTitle,
         thumbnail: cover(b.id)?.still(`${b.id}-t${n}e${ei + 1}`),
       })),
     };

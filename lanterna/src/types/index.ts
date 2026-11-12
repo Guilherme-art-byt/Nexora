@@ -16,6 +16,10 @@ export interface Episode {
   /** posição da miniatura dentro do backdrop da série (demo) */
   thumbFocus?: number;
   thumbnail?: string;
+  /** título original do episódio (usado para buscar a miniatura oficial) */
+  originalTitle?: string;
+  /** fonte de vídeo própria do episódio; sem ela, usa a fonte do título */
+  sourceId?: string;
 }
 
 export interface Season {

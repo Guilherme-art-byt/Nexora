@@ -1,6 +1,7 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { uid } from "@/lib/crypto";
 import { DEMO_SOURCE } from "@/player/sources";
+import { PUBLIC_DOMAIN_SOURCES, isBuiltInSource } from "@/player/publicDomain";
 import type { Account, AgeRating, Notification, Profile, ProgressEntry, Rating, Role, Title, VideoSource, ViewEvent } from "@/types";
 import { RepoError, type Library, type Repository } from "./repository";
 
@@ -64,7 +65,7 @@ export class SupabaseRepository implements Repository {
       id: r.id, name: r.name, kind: r.kind, license: r.license ?? "",
       renditions: r.renditions ?? [], audio: r.audio ?? [], subtitles: r.subtitles ?? [],
     }));
-    return [DEMO_SOURCE, ...rows.filter((s) => s.id !== "demo")];
+    return [DEMO_SOURCE, ...PUBLIC_DOMAIN_SOURCES, ...rows.filter((s) => !isBuiltInSource(s.id))];
   }
 
   async saveSource(s: VideoSource) {

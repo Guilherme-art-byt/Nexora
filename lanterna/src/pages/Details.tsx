@@ -62,6 +62,7 @@ export default function Details({ id }: { id: string }) {
     ? t.kind === "series" && progress.season ? `Continuar T${progress.season}:E${progress.episode}` : "Continuar"
     : progress?.finished && t.kind === "movie" ? "Assistir de novo" : "Assistir";
   const playbackIsDemo = (sources.find((s) => s.id === t.sourceId)?.kind ?? "demo") === "demo";
+  const publicDomain = !!t.sourceId?.startsWith("pd-");
   const hasTrailer = !!t.trailerYoutubeKey || !!(t.trailerSourceId && sources.some((s) => s.id === t.trailerSourceId));
 
   return (
@@ -127,6 +128,11 @@ export default function Details({ id }: { id: string }) {
             </div>
           </div>
 
+          {publicDomain && (
+            <p className="mt-4 max-w-[68ch] text-xs leading-relaxed text-mute">
+              Obra completa em domínio público, exibida a partir do acervo do Internet Archive (archive.org).
+            </p>
+          )}
           {playbackIsDemo && (
             <p className="mt-4 max-w-[68ch] text-xs leading-relaxed text-mute">
               Ao assistir, toca o vídeo de demonstração da Lanterna. Exibir a obra completa exige uma fonte de vídeo licenciada, cadastrada no painel.
