@@ -24,6 +24,8 @@ export default defineConfig(({ mode }) => {
   };
 
   return {
+    // caminhos relativos: funciona em qualquer subpasta (ex.: GitHub Pages em /Nexora/)
+    base: "./",
     plugins: [react(), ...(mode === "single" ? [viteSingleFile({ removeViteModuleLoader: true })] : [])],
     resolve: { alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
     assetsInclude: ["**/*.m4a"],
